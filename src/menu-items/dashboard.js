@@ -13,10 +13,10 @@ const dashboard = {
     children: [
         {
             id: 'default',
-            title: 'Dashboard',
+            title: 'Orders',
             type: 'item',
             url: '/dashboard/default',
-            icon: icons.IconDashboard,
+
             breadcrumbs: false
         }
     ]

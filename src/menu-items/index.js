@@ -1,12 +1,12 @@
-import dashboard from './dashboard';
-import pages from './pages';
-import utilities from './utilities';
-import other from './other';
+import orders from './Orders';
+import locations from './Locations';
+import lanes from './Lanes';
+import carriers from './Carriers';
 
 // ==============================|| MENU ITEMS ||============================== //
 
 const menuItems = {
-    items: [dashboard, pages, utilities, other]
+    items: [orders, lanes, carriers, locations]
 };
 
 export default menuItems;

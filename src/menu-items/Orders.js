@@ -1,36 +1,26 @@
-// assets
-import { IconKey } from '@tabler/icons';
-
-// constant
-const icons = {
-    IconKey
-};
+import { useRoutes } from 'react-router-dom';
 
 // ==============================|| EXTRA PAGES MENU ITEMS ||============================== //
 
-const pages = {
-    id: 'pages',
-    title: 'Pages',
-    caption: 'Pages Caption',
+const orders = {
     type: 'group',
     children: [
         {
             id: 'authentication',
-            title: 'Authentication',
+            title: 'Orders',
             type: 'collapse',
-            icon: icons.IconKey,
 
             children: [
                 {
                     id: 'login3',
-                    title: 'Login',
+                    title: 'Action1',
                     type: 'item',
-                    url: '/pages/login/login3',
+                    url: 'pages/sample-page/index.js',
                     target: true
                 },
                 {
                     id: 'register3',
-                    title: 'Register',
+                    title: 'Action2',
                     type: 'item',
                     url: '/pages/register/register3',
                     target: true
@@ -40,4 +30,4 @@ const pages = {
     ]
 };
 
-export default pages;
+export default orders;
