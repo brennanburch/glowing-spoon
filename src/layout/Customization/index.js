@@ -190,7 +190,7 @@ const Customization = () => {
                                             aria-labelledby="discrete-slider-small-steps"
                                             marks
                                             step={2}
-                                            min={4}
+                                            min={0}
                                             max={24}
                                             color="secondary"
                                             sx={{
