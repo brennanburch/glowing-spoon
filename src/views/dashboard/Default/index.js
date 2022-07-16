@@ -13,6 +13,7 @@ import TotalIncomeLightCard from './TotalIncomeLightCard';
 import TotalGrowthBarChart from './TotalGrowthBarChart';
 import CurrentOrders from './CurrentOrders';
 import { gridSpacing } from 'store/constant';
+import CurrentLocations from './CurrentLocations';
 
 // ==============================|| DEFAULT DASHBOARD ||============================== //
 
@@ -28,6 +29,11 @@ const Dashboard = () => {
                 <Grid container spacing={gridSpacing}>
                     <Grid item lg={12} md={6} sm={6} xs={12}>
                         <CurrentOrders isLoading={isLoading} />
+                    </Grid>
+                </Grid>
+                <Grid container spacing={gridSpacing}>
+                    <Grid item lg={12} md={6} sm={6} xs={12}>
+                        <CurrentLocations isLoading={isLoading} />
                     </Grid>
                 </Grid>
             </Grid>
